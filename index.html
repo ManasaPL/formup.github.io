@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>form3</title>
+    <style>
+        #one:hover{
+            background-color: black;
+        }
+         legend{
+            font-family: 'Times New Roman', Times, serif; color: bisque;
+         }
+
+    </style>
+
+</head>
+<body bgcolor="#B9EDDD">
+    <form action="message.html">
+
+        <fieldset>
+         <h1 style="font-size:30px ;color: blueviolet;">PERSONAL DETAILS</h1>
+
+         
+        <label for="fname">First Name</label>
+        <input type="text" id ="fname" name="fname">
+         <br><br>       
+
+
+        <label for="mname">Middle Name</label>
+        <input type="text" id ="mname" name="mname">
+        <br><br>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id ="lname" name="lname">
+        <br><br>
+        
+        <label for="email">Email</label>
+        <input type="email" id ="email" name="email">
+        <br><br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id ="dob" name="dob">
+
+        </fieldset>
+    
+
+        <fieldset>
+
+        <label for="">Contact</label>
+        <input type="text" required id="contact" name="contact" pattern="[6-9]{1}[0-9]{9}">
+        <br><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label for="">Gender</label>
+            <br><br>
+
+            <input type="radio" name="male" id="male">
+            <label for="male">male</label>
+
+            
+            <input type="radio" name="female" id="female">
+            <label for="female">female</label>
+            <br><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label for ="age">Age</label>
+            <input type="text"required placeholder ="Ex:18-27" id ="age" age="age">
+            <br><br>
+        </fieldset>
+
+         <fieldset>
+        <legend>Educational Details</legend>
+
+        <label for="">Department</label>
+        <br><br>
+
+        <input type="radio" id="EE" name="EE">
+        <label for="EE">EE</label>
+
+        <input type="radio" id="civil" name="civil">
+        <label for="civil">civil</label>
+
+        <input type="radio" id="cs" name="cs">
+        <label for="cs">cs</label>
+        <br><br>
+
+        <label for="YOP">YOG</label>
+        <input list="YOG" id="YOP" name="YOP">
+        <datalist id="YOG">
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </datalist>
+        <br><br>
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Languages</legend>
+
+        <input type="checkbox" id="English" name="English">
+        <label for="English">English</label>
+
+        <input type="checkbox" id="Kannada" name="Kannada">
+        <label for="Kannada">Kannada</label>
+
+        <input type="checkbox" id="Hindi" name="Hindi">
+        <label for="Hindi">Hindi</label>
+        <br><br>
+
+    </fieldset>
+    
+    <fieldset>
+            
+        <label for="Nationality">Nationality</label>
+        <input type="text" id="Nationality" name="Nationality">
+    </fieldset>
+
+     <fieldset>
+    <legend>Skills</legend>
+
+   <input type="checkbox" id="HTML" name="HTML">
+     <label for="HTML">HTML</label>
+
+     <input type="checkbox" id="CSS" name="CSS">
+     <label for="CSS">CSS</label>
+
+     <input type="checkbox" id="JAVASCRIPT" name="JAVASCRIPT">
+     <label for="JAVASCRIPT">JAVASCRIPT</label>
+     <br><br>
+
+    </fieldset>
+    <br><br>
+
+    <input type="submit">
+    <br><br>
+</form>
+    
+</body>
+</html>
